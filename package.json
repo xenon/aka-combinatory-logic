@@ -1,0 +1,21 @@
+{
+  "name": "aka-combinatory-logic",
+  "version": "1.0.0",
+  "description": "Combinatory logic interpreter in Typescript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": ["typescript", "combinator", "combinatory logic"],
+  "author": "alexanderacker",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/alexanderacker/aka-combinatory-logic.git"
+  }
+}
